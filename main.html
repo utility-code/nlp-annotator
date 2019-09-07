@@ -2,12 +2,31 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <script type="text/javascript" src="funcs.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+    <ul class="nav">
+        <li align= "center">AnnotateNLP!</li>
+    </ul>
+    <p align="center" name = "texter">This is an Open Source annotator for NLP.<br> Using this is really simple.<br>Just enter all your data in the following box. Each sentence in one line.<br> Also mention the tag you want<br>After that all you need to do is highlight the word with your cursor and click the button.<br> You will be presented with a formatted json at the end<br>Happy Tagging!</p>
+    <div align="center" name= "main">
+
+    <textarea placeholder="Enter the sentences in each line" id="sent"></textarea><br>
+
     <input type="text" id="tag" placeholder="Enter tag name"><br>
 
-    <div>Please select all or a part of this text.</div>
-    <br />
-    <button onclick="GetSelectedText ();">Get selected text!</button>
+    <button onclick="GetTag();">Click to start!</button><br>
+    <div id="Information"></div>
+    <div id="text"></div>
+    <button id = "startrun" onclick="GetSelectedText();"></button><br>
+    <div id="textshow"></div>
+
+</div>
+<div name="done">
+    <p name= "unf">The formatted json will be displayed here after you are done</p>
+    <br>
+    <div id="jsonnow"></div>
+</div>
+
 </body>
 </html>

@@ -1,0 +1,115 @@
+
+div[name="main"]{
+    /*margin-top: 10%;*/
+    padding:30px;
+
+    background-color:#e53935;
+color:#fff;
+float:top;
+
+font-size:20px;
+list-style:none;
+border-radius: 20px;
+font-family:Avenir;
+box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 20px 0 rgba(0, 0, 0, 0.30);
+/*margin:0;*/
+padding:20px;
+}
+
+div[name="done"]{
+    /*margin-top: 10%;*/
+    padding:30px;
+
+    background-color:#e53935;
+color:#fff;
+float:top;
+
+font-size:20px;
+list-style:none;
+border-radius: 20px;
+font-family:Avenir;
+box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 20px 0 rgba(0, 0, 0, 0.30);
+/*margin:0;*/
+padding:20px;
+}
+textarea{
+    width:60%;
+    height:100px;
+    font-size: 14px;
+    border-radius: 20px;
+    padding:15px;
+
+}
+
+body, *{
+    font-family: Avenir;
+
+    margin:15px;
+}
+
+
+.nav {
+background-color:#b71c1c;
+color:#fff;
+border-radius: 20px;
+float:top;
+font-weight:bold;
+font-size:30px;
+list-style:none;
+font-family:Avenir;
+box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 20px 0 rgba(0, 0, 0, 0.30);
+margin:0;
+padding:20px;
+}
+
+li{
+    color:white;
+}
+p[name = "texter"]{
+    margin-top:1%;
+    border-radius: 20px;
+    background-color:#e53935;
+color:#fff;
+float:top;
+
+font-size:20px;
+list-style:none;
+font-family:Avenir;
+box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 20px 0 rgba(0, 0, 0, 0.30);
+/*margin:0;*/
+padding:20px;
+}
+p[id = "textshow"]{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 20px 0 rgba(0, 0, 0, 0.30);
+}
+
+
+button{
+      margin-top:1%;
+    border-radius: 10px;
+    background-color:#ef5350;
+color:#fff;
+float:top;
+
+font-size:15px;
+list-style:none;
+font-family:Avenir;
+box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 20px 0 rgba(0, 0, 0, 0.30);
+/*margin:0;*/
+padding:5px;
+}
+
+input[type="text"]{
+     margin-top:1%;
+    border-radius: 20px;
+
+color:black;
+float:top;
+
+font-size:13px;
+list-style:none;
+font-family:Avenir;
+box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 20px 0 rgba(0, 0, 0, 0.30);
+/*margin:0;*/
+padding:10px;
+}
